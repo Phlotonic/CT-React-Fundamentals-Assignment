@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #f0f0f0; /* Light text color for dark mode */
+    background-color: #121212; /* Dark background color */
+}
+
+header, section, footer {
+    padding: 20px;
+    margin: 20px auto; /* Center the sections */
+    max-width: 800px; /* Limit the width for better readability */
+}
+
+h1 {
+    font-size: 5rem;
+    color: #ffffff; /* White color for headings */
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #ffffff; /* White color for headings */
+}
+
+p {
+    font-size: 1.5rem;
+    color: #ffffff; /* Light gray color for paragraphs */
+}
+
+footer {
+    background-color: #1e1e1e; /* Slightly lighter dark color for footer */
+    margin-top: 20px;
+    padding: 10px;
+}
+
+/* Add this CSS for the header background image */
+.header {
+    background-image: url('./starfield.gif');
+    background-size: cover;
+    background-position: center;
+    height: 200px; /* Adjust the height as needed */
+    color: white;
+    display: flex;
+    flex-direction: column; /* Ensure elements are stacked vertically */
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Center text within the header */
+}
